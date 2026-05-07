@@ -34,5 +34,5 @@ ssh "$SERVER" << 'EOF'
   systemctl status alloul-agent --no-pager
 EOF
 
-echo "==> Done! Agent running at http://srv1431166.hstgr.cloud:8001"
-echo "==> Health check: curl http://srv1431166.hstgr.cloud:8001/health"
+echo "==> Done! Agent running at http://srv1431166.hstgr.cloud:8002"
+echo "==> Health check: curl http://srv1431166.hstgr.cloud:8002/health"
